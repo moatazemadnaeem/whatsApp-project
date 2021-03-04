@@ -1,0 +1,20 @@
+.person__chat{
+    margin-top: 50px;
+
+
+}
+.p__c{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.p__c:hover{
+background-color: lightgrey;
+}
+.p__i{
+    margin-left: 20px;
+   
+}
+.p__i > p{
+    font-size: 13px;
+}

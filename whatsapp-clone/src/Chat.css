@@ -1,0 +1,75 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex:0.65;
+}
+.chat__holder{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    height: 74px;
+}
+.chat__right{
+   margin-left: 350px;
+}
+.chat__info{
+    margin-left: 20px;
+}
+.chat__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 400px;
+    margin-left: 10px;
+    border-radius: 20px;
+    height: 40px;
+    padding: 10px;
+
+}
+.l_h_s>h5{
+    margin-left: 20px;
+    font-size: 15px;
+    color: white;
+}
+.chat__box>span{
+    font-size: xx-small;
+    margin-left: 20px;
+    
+}
+.chat__msg{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-image: url("https://wallpaperaccess.com/full/1288076.jpg");
+}
+.r_h_s>.chat__box{
+   background-color: #b0dd8e;
+   margin-left: 350px;
+}
+.r_h_s>h5{
+    font-size: 15px;
+    color: white;
+    margin-left: 350px;
+}
+.send__msg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.send__msg>form>input{
+    border: none;
+    border-radius: 30px;
+    width: 300px;
+    padding: 10px;
+    outline-width: 0;
+}  
+.send__msg>form>button{
+    display: none;
+}
+.msgcontainer{
+   
+    overflow: scroll;
+    
+}
